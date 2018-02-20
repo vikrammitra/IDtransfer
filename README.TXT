@@ -11,7 +11,7 @@ IN ORDER TO RUN THE ID TRANSFER PIPELINE SET THE FOLLOWING PARAMETERS IN THE CON
 # SET THE LOCATION OF 'PreprocessingSourceFile' THAT EXTRACTS INOFRMATION FROM ID-FILES [.pepxmlFiles] AND RAW MS FILES
 InputParam[["PreprocessingSourceFile"]] <- 'C:/Users/DellPS/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/FinalScripts/Pre-process_Source.R' 
 # SET THE LOCATION OF 'ID_tranferSourceFile' THAT PERFORMS ID-TRANSFER BETWEEN TWO DATASETS
-InputParam[["ID_tranferSourceFile"]] <- 'C:/Users/DellPS/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/FinalScripts/ID-tranfer_Source.R'
+InputParam[["ID_tranferSourceFile"]] <- 'C:/Users/vm/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/FinalScripts/ID-tranfer_Source.R'
 # SET THE LOCATION OF R-FUNCTIONS SCRIPT
 InputParam[["Rlibpath"]] <- 'lib/IDtransferFunc.R'
 InputParam[["JAR_filePath"]] <- paste(dirname(InputParam$SourceFile),'lib/jar_libs/',sep="/")
