@@ -9,7 +9,7 @@ IN ORDER TO RUN THE ID TRANSFER PIPELINE SET THE FOLLOWING PARAMETERS IN THE CON
 
 # STEP1. Lib functions and source file locations ###################################################
 # SET THE LOCATION OF 'PreprocessingSourceFile' THAT EXTRACTS INOFRMATION FROM ID-FILES [.pepxmlFiles] AND RAW MS FILES
-InputParam[["PreprocessingSourceFile"]] <- 'C:/Users/DellPS/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/FinalScripts/Pre-process_Source.R' 
+InputParam[["PreprocessingSourceFile"]] <- 'C:/Users/vm/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/FinalScripts/Pre-process_Source.R' 
 # SET THE LOCATION OF 'ID_tranferSourceFile' THAT PERFORMS ID-TRANSFER BETWEEN TWO DATASETS
 InputParam[["ID_tranferSourceFile"]] <- 'C:/Users/vm/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/FinalScripts/ID-tranfer_Source.R'
 # SET THE LOCATION OF R-FUNCTIONS SCRIPT
