@@ -16,11 +16,11 @@ InputParam[["ID_tranferSourceFile"]] <- 'C:/Users/vm/Documents/VM_thesis/Chapter
 InputParam[["Rlibpath"]] <- 'lib/IDtransferFunc.R'
 InputParam[["JAR_filePath"]] <- paste(dirname(InputParam$SourceFile),'lib/jar_libs/',sep="/")
 # SET THE LOCATION TO SAVE R SESSION WORKSPACE
-InputParam[["SaveImageName"]] <- 'C:/Users/DellPS/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/IDtransfer.RData'
+InputParam[["SaveImageName"]] <- 'C:/Users/vm/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/IDtransfer.RData'
 
 # STEP2. SET PARAMETERS FOR Pre-processing STEPS ###################################################
 # SET THE PATH OF DATASET TO PRE-PROCESS; CREATE A DIR FOR EACH DATASET
-InputParam[["RootWD"]]   <- 'C:/Users/DellPS/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/Dataset1/'
+InputParam[["RootWD"]]   <- 'C:/Users/vm/Documents/VM_thesis/Chapter4/VM/PeaksHumanProteome_analysis/Dataset1/'
 # SET THE PATH OF SUB-DIR CONTAINING ALL RAW MS FILES 
 InputParam[["RawFiles"]] <- 'MSFiles/'
 # SET THE PATH OF SUB-DIR CONTAINING .pepxml FILE 
